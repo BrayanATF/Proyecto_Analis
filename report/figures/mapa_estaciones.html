@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_957d434d35951a5c9642f914a196a65d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_957d434d35951a5c9642f914a196a65d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_957d434d35951a5c9642f914a196a65d = L.map(
+                "map_957d434d35951a5c9642f914a196a65d",
+                {
+                    center: [19.32, -99.13],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e592aa7e7091dd3a03c1164af68c9b24 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e592aa7e7091dd3a03c1164af68c9b24.addTo(map_957d434d35951a5c9642f914a196a65d);
+        
+    
+            var circle_marker_e185aff44546c11676fb50e2f8db3aac = L.circleMarker(
+                [19.4326, -99.1332],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_957d434d35951a5c9642f914a196a65d);
+        
+    
+        var popup_0f4fbeed3ad30b946f246d6502939ccd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a7f7fda86d114492302886bdcfa655c = $(`<div id="html_1a7f7fda86d114492302886bdcfa655c" style="width: 100.0%; height: 100.0%;">Centro - 106921</div>`)[0];
+                popup_0f4fbeed3ad30b946f246d6502939ccd.setContent(html_1a7f7fda86d114492302886bdcfa655c);
+            
+        
+
+        circle_marker_e185aff44546c11676fb50e2f8db3aac.bindPopup(popup_0f4fbeed3ad30b946f246d6502939ccd)
+        ;
+
+        
+    
+    
+            var circle_marker_7f1a66a395fcc1c32f0f5b3538ddf432 = L.circleMarker(
+                [19.302, -99.15],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11, "stroke": true, "weight": 3}
+            ).addTo(map_957d434d35951a5c9642f914a196a65d);
+        
+    
+        var popup_b78c91e73d946c22fc1ca4c40b542245 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5878eecce96e2d46a2aeb1c2e776e7c1 = $(`<div id="html_5878eecce96e2d46a2aeb1c2e776e7c1" style="width: 100.0%; height: 100.0%;">Estadio_Azteca - 179413</div>`)[0];
+                popup_b78c91e73d946c22fc1ca4c40b542245.setContent(html_5878eecce96e2d46a2aeb1c2e776e7c1);
+            
+        
+
+        circle_marker_7f1a66a395fcc1c32f0f5b3538ddf432.bindPopup(popup_b78c91e73d946c22fc1ca4c40b542245)
+        ;
+
+        
+    
+    
+            var circle_marker_f35b6e212b95ae541d69399b91defedd = L.circleMarker(
+                [19.2978, -99.0123],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_957d434d35951a5c9642f914a196a65d);
+        
+    
+        var popup_2e51c8ed9836089ae64977ec7a42f03e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_739f191222e608af4acb7531851d0575 = $(`<div id="html_739f191222e608af4acb7531851d0575" style="width: 100.0%; height: 100.0%;">Tláhuac - 236917</div>`)[0];
+                popup_2e51c8ed9836089ae64977ec7a42f03e.setContent(html_739f191222e608af4acb7531851d0575);
+            
+        
+
+        circle_marker_f35b6e212b95ae541d69399b91defedd.bindPopup(popup_2e51c8ed9836089ae64977ec7a42f03e)
+        ;
+
+        
+    
+</script>
+</html>
